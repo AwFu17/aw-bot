@@ -13,8 +13,6 @@ bot.command('sheet', async (ctx) => {
     try {await ctx.replyWithHTML('<b> buttons </b>', Markup.inlineKeyboard(
         [
             [Markup.button.callback('button', 'btn_1.3'), Markup.button.callback('button', 'btn_2.3'), Markup.button.callback('button', 'btn_3.3')], 
-            [Markup.button.callback('button', 'btn_1.2'), Markup.button.callback('button', 'btn_2.2'), Markup.button.callback('button', 'btn_3.2')],
-            [Markup.button.callback('button', 'btn_1.1'), Markup.button.callback('button', 'btn_2.1'), Markup.button.callback('button', 'btn_3.1')]
         ]
     ))}
     catch(error){
