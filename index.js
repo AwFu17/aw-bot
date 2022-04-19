@@ -19,7 +19,7 @@ bot.command('sheet', async (ctx) => {
         console.error(error);
     }
 })
-
+bot.hears((ctx) => {console.log(ctx.message);})
 
 
 function addActionBot(name, src, text){
